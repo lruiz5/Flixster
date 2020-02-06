@@ -13,6 +13,8 @@
         <item name="colorPrimary">@color/darkColorPrimary</item>
         <item name="colorPrimaryDark">@color/darkcolorPrimaryDark</item>
         <item name="colorAccent">@color/darkColorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
     </style>
 
 </resources>

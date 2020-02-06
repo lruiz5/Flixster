@@ -39,7 +39,6 @@ public class FrontPage extends AppCompatActivity {
 
         movies = new ArrayList<>();
 
-
         //create the adapter
         final MovieAdapters movieAdapters = new MovieAdapters(this, movies);
 
