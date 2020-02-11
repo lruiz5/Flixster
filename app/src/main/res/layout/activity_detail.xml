@@ -11,11 +11,13 @@
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/player"
+        android:transitionName="trailer"
         android:layout_width="match_parent"
         android:layout_height="250dp" />
 
     <TextView
         android:id="@+id/tvTitle"
+        android:transitionName="detailTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Parasite"
@@ -26,12 +28,15 @@
         style="@style/Widget.AppCompat.RatingBar.Indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:foregroundTint="#FFEB3B"
         android:isIndicator="true"
         android:numStars="10"
-        android:rating="8.5" />
+        android:rating="8.5"
+        android:transitionName="detailRating" />
 
     <TextView
         android:id="@+id/tvOverview"
+        android:transitionName="detailOverview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident." />
